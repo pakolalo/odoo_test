@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Odoo</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <figure class="logo_container">
+            <img class="logo_img" src="./assets/icons/odoo-white.svg" alt="Odoo logo">
+            </figure>
+            <ul class="navbar_list">
+                <li>
+                    <a href="#" class="navbar_link">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="navbar_link">
+                        Products
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="navbar_link">
+                        Pages
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="navbar_link">
+                        App
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="navbar_link">
+                        Docs
+                    </a>
+                </li>
+            </ul>
+            <div class="navbar_right">
+                <a class="navbar_link" href="#">
+                    Sign In
+                </a>
+                <button class="navbar_right--btn">
+                    <img class="navbar_right--img" src="./assets/icons/bx-shopping-bag.svg" alt="Shopping bag img">
+                    <p class="navbar_right--p">
+                        Buy now
+                    </p>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <article class="hero_container--left">
+                    <h1 class="hero_title">Development done right</h1>
+                    <p class="hero_left--p">Build a beautiful, modern website with flexible components built from scratch.</p>
+                    <button class="hero_left--btn">
+                        <p>Get started</p>
+                        <img src="./assets/icons/bx-plus-black.svg" alt="Plus sign img">
+                    </button>
+                    <div class="hero_left--logos">
+                        <p>Trusted by:</p>
+                        <img class="hero_left--img" src="./assets/icons/google-white.svg" alt="Google logo">
+                        <img class="hero_left--img" src="./assets/icons/spotify-white.svg" alt="Spotify logo">
+                        <img class="hero_left--img" src="./assets/icons/airbnb-white.svg" alt="Airbnb logo">
+                        <img class="hero_left--img" src="./assets/icons/paypal-white.svg" alt="PayPal logo">
+                    </div>
+                </article>
+                <article class="hero_container--right">
+                    <div class="hero_right--header">
+                        <h3 class="hero_right--title">Manage cards</h3>
+                        <button class="hero_right--btn">Add new</button>
+                    </div>
+                    <figure class="hero_right-img-container">
+                        <img src="./assets/img/credit_card.png" alt="Credit Card img">
+                    </figure>
+                    <article class="hero_right--info">
+                        <span>
+                            <h3 class="hero_right--title">Starbucks</h3>
+                        <p class="hero_right--currency">
+                            $5,50 USD
+                        </p>
+                        </span>
+                        <p class="hero_right--sub">Pending - San Francisco, United States</p>
+                    </article>
+                    <article class="hero_right--info">
+                        <span>
+                            <h3 class="hero_right--title">Nike Sports</h3>
+                        <p class="hero_right--currency">
+                            $129,00 USD
+                        </p>
+                        </span>
+                        <p class="hero_right--sub">Pending - Lisbon, Portugal</p>
+                    </article>
+                    <a href="#" class="hero_right--link">
+                        <p>View all</p>
+                        <img src="./assets/icons/bx-chevron-right-blue.svg" alt="right arrow img">
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section class="main_info">
+            <div class="container">
+                <article class="awesome_projects--containerLeft">
+                    <h2 class="awesome_projects--title">Awesome projects</h2>
+                    <ul class="projects_list">
+                        <li>
+                            <div class="progress_wrapper">
+                                <div class="progress_title--container">
+                                    <p class="progress_label">Create the new logo</p>
+                                    <span>
+                                        <p>3:50</p>
+                                        <img src="./assets/icons/bx-chevron-right-gray.svg" alt="Right arrow img">
+                                    </span>
+                                </div>
+                                <data class="progress_value" value="80"></data>
+                            </div>
+                        <div class="progress_bg">
+                            <div class="progress" style="width: 40%;"></div>
+                        </div>
+                        </li>
+                        <li>
+                            <div class="progress_wrapper">
+                                <div class="progress_title--container">
+                                    <p class="progress_label">Set up the color palette</p>
+                                    <span>
+                                        <p>4:00</p>
+                                        <img src="./assets/icons/bx-chevron-right-gray.svg" alt="Right arrow img">
+                                    </span>
+                                </div>
+                                <data class="progress_value" value="80"></data>
+                            </div>
+                            <div class="progress_bg">
+                                <div class="progress" style="width: 60%;"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="progress_wrapper">
+                                <div class="progress_title--container">
+                                    <p class="progress_label">Wireframe and prototype</p>
+                                    <span>
+                                        <p>6:50</p>
+                                        <img src="./assets/icons/bx-chevron-right-gray.svg" alt="Right arrow img">
+                                    </span>
+                                </div>
+                                <data class="progress_value" value="80"></data>
+                            </div>
+                            <div class="progress_bg">
+                                <div class="progress" style="width: 80%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <figure class="project_img--container">
+                        <img class="project_img" src="./assets/img/img_01.jpg" alt="People in a meeting img">
+                        <button class="play_btn--right">
+                            <p>Play video</p>
+                            <img src="./assets/icons/bx-right-arrow.svg" alt="Right arrow img">
+                        </button>
+                    </figure>
+                </article>
+                <article class="awesome_projects--containerRight">
+                    <span class="project_btn yellow">
+                        <p>Tools</p>
+                    </span>
+                    <h2 class="awesome_projects--titleRight">We build for designers and developers</h2>
+                    <p class="awesome_projects--p">Get components and examples, including tons of variables that will help you grow your business.</p>
+                </article>
+                <article class="awesome_projects--containerRight">
+                    <span class="project_btn green">
+                        <p>Features</p>
+                    </span>
+                    <p class="awesome_projects--pBlue">Get components and examples, including tons of variables that will help you grow your business.</p>
+                    <span class="awesome_projects--bullet">
+                        <img src="./assets/icons/bxs-check-square.svg" alt="Check square green">
+                        <p>Perfect for modern startups</p>
+                    </span>
+                    <span class="awesome_projects--bullet">
+                        <img src="./assets/icons/bxs-check-square.svg" alt="Check square green">
+                        <p>Fully customizable and scalable</p>
+                    </span>
+                </article>
+                <article class="awesome_projects--img-container">
+                    <img src="./assets/img/img_02.jpg" alt="People viewing a computer">
+                    <button class="play_btn--left">
+                        <p>Play video</p>
+                        <img src="./assets/icons/bx-right-arrow.svg" alt="Right arrow img">
+                    </button>
+                </article>
+                <article class="awesome_projects--cards">
+                    <div class="projects_card1">
+                        <img class="card_img" src="./assets/img/person_03.jpg" alt="Person 03 img">
+                        <div class="footer_card">
+                            <span class="card_figure">JH</span>
+                            <p class="card_p">Jimmy Hendrix</p>
+                            <img class="card_footer--img" src="./assets/icons/bx-heart.svg" alt="Heart img">
+                        </div>
+                    </div>
+                    <div class="projects_card2">
+                        <img class="projects_card2--img" src="./assets/icons/airbnb.svg" alt="Airbnb logo">
+                        <span class="stars_container">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star.svg" alt="Star img">
+                        </span>
+                        <p class="projects_card-p">4.95 out of 5 stars</p>
+                        <p class="projects_card-bP">from 23 reviews</p>
+                    </div>
+                    <div class="projects_card3">
+                        <img class="projects_card3--img" src="./assets/icons/bxs-check-circle.svg" alt="Box check circle img">
+                        <span>
+                            <p class="projects_card3-title">300+ components</p>
+                            <p class="projects_card3-p">Built to be customized</p>
+                        </span>
+                    </div>
+                    <div class="projects_card4">
+                        <img class="projects_card4--img" src="./assets/img/company_01.png" alt="Company img">
+                        <p class="projects_card4--title">Website UI Kit</p>
+                        <figure class="projects_card4--img-container">
+                            <img class="profile_pic1" src="./assets/img/person_01.jpg" alt="Person 01 img">
+                            <img class="profile_pic2" src="./assets/img/person_02.jpg" alt="Person 02 img">
+                            <img class="profile_pic3" src="./assets/img/person_03.jpg" alt="Person 03 img">
+                        </figure>
+                        <figure class="projects_card4--footer">
+                            <img class="projects_card4--footer-img" src="./assets/icons/bx-paperclip.svg" alt="Paper clip img">
+                            <img class="projects_card4--footer-img" src="./assets/icons/bx-show-alt.svg" alt="Eye img">
+                            <img class="projects_card4--footer-img" src="./assets/icons/bx-heart.svg" alt="Heart img">
+                        </figure>
+                    </div>
+                </article>
+                <article class="awesome_projects--containerRight">
+                    <span class="project_btn blue">
+                        <p>Technology</p>
+                    </span>
+                    <h2 class="awesome_projects--titleRight">We use the latest technologies on the market</h2>
+                    <p class="awesome_projects--p">Get components and examples, including tons of variables that will help you grow your business.</p>
+                    <a class="awesome_projects--link" href="#">
+                        <p>See case studies</p>
+                    </a>
+                </article>
+                <article class="awesome_projects--containerRight">
+                    <span class="project_btn yellow2">
+                        <p>Easy to install</p>
+                    </span>
+                    <h2 class="awesome_projects--titleRight">Download, intall and run.</h2>
+                    <p class="awesome_projects--p">Get components and examples, including tons of variables that will help you grow your business.</p>
+                    <span class="buttons_container">
+                        <button class="store_btn">
+                            <img src="./assets/img/app_store.png" alt="Apple logo">
+                        </button>
+                        <button class="store_btn">
+                            <img src="./assets/img/play_store.png" alt="Play Store logo">
+                        </button>
+                    </span>
+                </article>
+                <article class="awesome_projects--img-container">
+                    <img src="./assets/img/img_03.jpg" alt="People viewing a computer">
+                    <button class="play_btn--left">
+                        <p>Play video</p>
+                        <img src="./assets/icons/bx-right-arrow.svg" alt="Right arrow img">
+                    </button>
+                </article>
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <span class="banner_text--container">
+                    <h2 class="banner_text--title">Infinite solutions</h2>
+                    <p class="banner_text--p">Intuitive markup, powerful and lightning fast buil tools, everything you need to turn your ideas into incredible products. </p>
+                </span>
+                <button class="learn_more--btn">
+                    <p>Learn more</p>
+                    <img src="./assets/icons/bx-right-arrow-alt.svg" alt="Right arrow img">
+                </button>
+            </div>
+        </section>
+        <section class="awards">
+            <div class="container">
+                <span class="project_btn blue2">
+                    <p>Awards</p>
+                </span>
+                <p class="awards_p">Awards for design, creativity and innovation on the internet</p>
+                <div class="awards_cards--container">
+                    <div class="projects_card2 card1">
+                        <img class="projects_card2--img" src="./assets/icons/airbnb.svg" alt="Airbnb logo">
+                        <span class="stars_container">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star.svg" alt="Star img">
+                        </span>
+                        <p class="projects_card-p">4.95 out of 5 stars</p>
+                        <p class="projects_card-bP">from 23 reviews</p>
+                    </div>
+                    <div class="projects_card2 card2">
+                        <img class="projects_card2--img" src="./assets/icons/amazon.svg" alt="Amazon logo">
+                        <p class="projects_card-p2">They build modern looking websites easily using Tabs.</p>
+                        <p class="projects_card2-bP">Learn more</p>
+                    </div>
+                    <div class="projects_card2 card1">
+                        <img class="projects_card2--img" src="./assets/icons/slack.svg" alt="Slack logo">
+                        <p class="projects_card-p2">They build modern looking websites easily using Tabs.</p>
+                        <p class="projects_card2-bP">Learn more</p>
+                    </div>
+                    <div class="projects_card2 card2">
+                        <img class="projects_card2--img" src="./assets/icons/spotify.svg" alt="Spotify logo">
+                        <span class="stars_container">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star-yellow.svg" alt="Star img">
+                            <img class="star" src="./assets/icons/bx-star.svg" alt="Star img">
+                        </span>
+                        <p class="projects_card-p">4.95 out of 5 stars</p>
+                        <p class="projects_card-bP">from 23 reviews</p>
+                    </div>
+                    <div class="projects_card2 card1">
+                        <img class="projects_card2--img" src="./assets/icons/paypal.svg" alt="Paypal logo">
+                        <p class="projects_card-p2">They build modern looking websites easily using Tabs.</p>
+                        <p class="projects_card2-bP">Learn more</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="helpful-anwers">
+            <div class="container">
+                <h2 class="helpful-anwers--title">Helpful answers</h2>
+                <p class="helpful-anwers--p">Start building fast, beautiful and modern looking websites in no time.</p>
+                <section class="helpful-anwers--container">
+                    <article class="answer_padding">
+                        <div class="answer_container">
+                            <div class="answer_top">
+                                <h3 class="answer_title">
+                                    <img class="answer_icon" src="./assets/icons/bx-file.svg" alt="File icon">
+                                    Which license do i need?
+                                </h3>
+                                <span class="answer_plus">
+                                    <img class="down_icon" src="./assets/icons/bxs-down-arrow.svg" alt="Down arrow icon">
+                                </span>
+                            </div>
+                            <p class="answer_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eos nisi iusto impedit aut voluptate, obcaecati sint, minus facere eum accusamus iste magni hic. Saepe porro ut deserunt dolorum facere!</p>
+                        </div>
+                    </article>
+                    <article class="answer_padding">
+                        <div class="answer_container">
+                            <div class="answer_top">
+                                <h3 class="answer_title">
+                                    <img class="answer_icon" src="./assets/icons/bx-file.svg" alt="File icon">
+                                    Which license do i need?
+                                </h3>
+                                <span class="answer_plus">
+                                    <img class="down_icon" src="./assets/icons/bxs-down-arrow.svg" alt="Down arrow icon">
+                                </span>
+                            </div>
+                            <p class="answer_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eos nisi iusto impedit aut voluptate, obcaecati sint, minus facere eum accusamus iste magni hic. Saepe porro ut deserunt dolorum facere!</p>
+                        </div>
+                    </article>
+                    <article class="answer_padding">
+                        <div class="answer_container">
+                            <div class="answer_top">
+                                <h3 class="answer_title">
+                                    <img class="answer_icon" src="./assets/icons/bxs-lock-open.svg" alt="Lock icon">
+                                    How do I get access to my database?
+                                </h3>
+                                <span class="answer_plus">
+                                    <img class="down_icon" src="./assets/icons/bxs-down-arrow.svg" alt="Down arrow icon">
+                                </span>
+                            </div>
+                            <p class="answer_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eos nisi iusto impedit aut voluptate, obcaecati sint, minus facere eum accusamus iste magni hic. Saepe porro ut deserunt dolorum facere!</p>
+                        </div>
+                    </article>
+                    <article class="answer_padding">
+                        <div class="answer_container">
+                            <div class="answer_top">
+                                <h3 class="answer_title">
+                                    <img class="answer_icon" src="./assets/icons/bxs-lock-open.svg" alt="Lock icon">
+                                    How do I get access to my database?
+                                </h3>
+                                <span class="answer_plus">
+                                    <img class="down_icon" src="./assets/icons/bxs-down-arrow.svg" alt="Down arrow icon">
+                                </span>
+                            </div>
+                            <p class="answer_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eos nisi iusto impedit aut voluptate, obcaecati sint, minus facere eum accusamus iste magni hic. Saepe porro ut deserunt dolorum facere!</p>
+                        </div>
+                    </article>
+                    <article class="answer_padding">
+                        <div class="answer_container">
+                            <div class="answer_top">
+                                <h3 class="answer_title">
+                                    <img class="answer_icon" src="./assets/icons/bx-folder.svg" alt="Folder icon">
+                                    How do I see previous orders?
+                                </h3>
+                                <span class="answer_plus">
+                                    <img class="down_icon" src="./assets/icons/bxs-down-arrow.svg" alt="Down arrow icon">
+                                </span>
+                            </div>
+                            <p class="answer_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eos nisi iusto impedit aut voluptate, obcaecati sint, minus facere eum accusamus iste magni hic. Saepe porro ut deserunt dolorum facere!</p>
+                        </div>
+                    </article>
+                    <article class="answer_padding">
+                        <div class="answer_container">
+                            <div class="answer_top">
+                                <h3 class="answer_title">
+                                    <img class="answer_icon" src="./assets/icons/bx-folder.svg" alt="Folder icon">
+                                    How do I see previous orders?
+                                </h3>
+                                <span class="answer_plus">
+                                    <img class="down_icon" src="./assets/icons/bxs-down-arrow.svg" alt="Down arrow icon">
+                                </span>
+                            </div>
+                            <p class="answer_show">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eos nisi iusto impedit aut voluptate, obcaecati sint, minus facere eum accusamus iste magni hic. Saepe porro ut deserunt dolorum facere!</p>
+                        </div>
+                    </article>
+                </section>
+                <h2 class="helpful-anwers--title">I want to start a new project.</h2>
+                <span class="new_project_btn--container">
+                    <button class="buy_now--btn">
+                        <p>Buy now</p>
+                        <img src="./assets/icons/bx-right-arrow-alt-white.svg" alt="Right arrow icon">
+                    </button>
+                    <a href="#">Learn more</a>
+                </span>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <section class="footer_top">
+                <span class="footer_top-text-container">
+                    <h2 class="footer_title">Brilliant solutions for your ideas</h2>
+                    <p>Modern looking websites</p>
+                </span>
+                <span class="footer_top-btn-container">
+                    <a href="#">
+                        <button class="documentation_btn">
+                            <img src="./assets/icons/bx-book-alt.svg" alt="Book icon">
+                            <p>Documentation</p>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="purchase_btn">
+                            <p>Purchase now</p>
+                        </button>
+                    </a>
+                </span>
+            </section>
+            <div class="gradient_line"></div>
+            <section class="footer_middle">
+                <div class="footer_middle-left--container">
+                    <figure class="logo_container">
+                        <img class="logo_img" src="./assets/icons/odoo-white.svg" alt="Odoo logo">
+                    </figure>
+                    <p>Oddo attempts to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in most web projects</p>
+                </div>
+                <div class="footer_middle-right--container">
+                    <ul class="footer_list">
+                        <li>
+                            <a class="footer_subtitle" href="">Account</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Profile</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Settings</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Billing</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Notifications</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_list">
+                        <li>
+                            <a class="footer_subtitle" href="">About</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Services</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Pricing</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Careers</a>
+                        </li>
+                    </ul>
+                    <ul class="footer_list">
+                        <li>
+                            <a class="footer_subtitle" href="">Company</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Community</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Help center</a>
+                        </li>
+                        <li class="footer_list-item">
+                            <a href="#">Support</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+                <div class="footer_logos--container">
+                    <figure class="footer_logo-container">
+                        <a href="#">
+                            <img class="footer_logo--img" src="./assets/icons/bxl-dribbble.svg" alt="Dribbble logo">
+                        </a>
+                    </figure>
+                    <figure class="footer_logo-container">
+                        <a href="#">
+                            <img class="footer_logo--img" src="./assets/icons/bxl-github.svg" alt="Git Hub logo">
+                        </a>
+                    </figure>
+                    <figure class="footer_logo-container">
+                        <a href="#">
+                            <img class="footer_logo--img" src="./assets/icons/bxl-instagram.svg" alt="Instagram logo">
+                        </a>
+                    </figure>
+                    <figure class="footer_logo-container">
+                        <a href="">
+                            <img class="footer_logo--img" src="./assets/icons/bxl-facebook-circle.svg" alt="Facebook logo">
+                        </a>
+                    </figure>
+                </div>
+                <div class="gradient_line"></div>
+            <section class="footer_bottom">
+                <div class="footer_bottom-left--container">
+                    <span>&copy;</span>
+                    <figure class="footer_bottom-logo--container">
+                        <img class="footer_bottom-logo--img" src="./assets/icons/odoo-white.svg" alt="Odoo logo">
+                    </figure>
+                    <p>All rights reserved</p>
+                </div>
+                <div class="footer_bottom-right--container">
+                    <ul class="footer_bottom-right--list">
+                        <li>
+                            <a class="footer_bottom-right-item" href="#">Terms</a>
+                        </li>
+                        <li>
+                            <a class="footer_bottom-right-item" href="#">Privacy</a>
+                        </li>
+                        <li>
+                            <a class="footer_bottom-right-item" href="#">Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </footer>
+</body>
+<script src="./js/main.js"></script>
+</html>
