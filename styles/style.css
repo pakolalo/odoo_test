@@ -259,6 +259,7 @@ html {
 
 .awesome_projects--containerLeft {
     position: relative;
+    padding: 20px;
     color: var(--blue-text);
     border: 1px solid var(--light-gray);
     border-radius: 10px;
