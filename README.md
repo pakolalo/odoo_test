@@ -8,7 +8,7 @@ A static HTML page made with HTML, CSS and JavaScript
 * [Portfolio](https://iscodelcollado.com)
 
 ## Watch the live example
-- [link]
+- [[link](https://pakolalo.github.io/odoo_test/)]
 
 ## Installation
 
